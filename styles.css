@@ -1,0 +1,169 @@
+
+.header{
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.header-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.upper{
+    background-color: rgb(61, 61, 61);
+    font-size: 32px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 5rem;
+}
+
+.left-side{
+    max-width: 400px;
+    
+}
+
+.placeholder
+{
+    display: flex;
+    min-width:700px;
+    height: 400px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+}
+
+
+button{
+    display: block;
+    background-color: rgb(0, 132, 255);
+    width: 8rem;
+    height: 3rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.middle {
+    text-align: center;
+    margin: 5rem;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+
+.item{
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+.small-placeholder{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(0, 132, 255);
+}
+
+.outer-lower-middle{
+    background-color: lightgray;
+    padding: 6rem;
+}
+
+.lower-middle{
+    margin: 0 auto; /* Horisontell centrering */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+}
+
+.text{
+    font-size: 32px;
+    max-width: 700px;
+}
+
+.quote{
+    align-self: end;
+    margin-right: 80px;
+}
+
+.outer-lower{
+    height: 300px;
+    margin: 45px;
+}
+
+.lower{
+    width: 1200px;
+    height: 200px ;
+    background: rgb(0, 132, 255);
+    border-radius: 10px;
+    margin: 0 auto;
+    color: white;
+}
+
+
+.lower a{
+    display:flex;
+    align-content: center;
+}
+
+#call-to-action{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 25px;
+    padding-top:25px;
+}
+
+#sign-up{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 2rem;
+}
+
+.lower a, .lower button {
+    margin-left:50px;
+    padding: 0; /* Ta bort padding */
+}
+
+button{
+    color: white;
+    border-color: white;
+}
+
+.footer{
+    background-color: rgb(61, 61, 61);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
